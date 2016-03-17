@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<!--
+	Linear by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Linear by TEMPLATED</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<div id="header">
+			<div id="nav-wrapper"> 
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="active"><a href="index.html">Início</a></li>
+						<li><a href="left-sidebar.html">Trabalhos</a></li>
+						<li><a href="right-sidebar.html">Outro link</a></li>
+						<li><a href="no-sidebar.html">Outro link</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">PDI</a></h1>
+					<span class="tag">Herbeton Bispo</span>
+				</div>
+			</div>
+		</div>
+		<!-- Header -->
+
+	<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row">					
+					<!-- Content -->
+					<div id="content" class="auto skel-cell-important">
+						<section>
+							<header>
+								<h2>Trabalhos referentes a 1ª unidade de PDI </h2><br>
+								
+								<span class="byline">Manipulando pixels em um imagem</span>
+								<h3>&nbsp; - Exercício 1</h3><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática visa solucitar ao usuário cordenadas de dois pontos, para que essa região seja transformada em imagem negativa. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<div style="text-align: center;"><img width="700" height="500" src="images/regions1code.png">
+								<h4>Imagem 1</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como podemos ver o que temos na imagem 1 é apenas a entrada do usuário, para ele especificar a região que ele quer que seja "modificada". </p><br>
+								<div style="text-align: center;"><img width="700" height="500" src="images/regions2code.png">
+								<h4>Imagem 2</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Já na imagem 2, temos as operações feitas no nossa imagem, onde na variável imagem recortada, temos apenas o recorte da imagem que teve a região especificada pelo usuário, como mostrado na imagem 3. Já na variável imagemRecortadaNegativa, temos a imagem que foi recortada invertendo os seus bits(-255), que também podemos ver na imagem 3. E por fim temos a "união" da imagem original, com a imagem recortada e negativa como também podemos ver na imagem 3.</p>
+								<div style="text-align: center;"><img width="700" height="500" src="images/resultadoRegions.png">
+								<h4>Imagem 3</h4>
+								</div><br>
+							</header>
+						</section>
+						
+						<section>
+							<header>
+								<span class="byline">Trocando regiões</span>
+								<h3>&nbsp; - Exercício 2</h3><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática visa solucitar visa a troca de regiões de uma imagem. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<div style="text-align: center;"><img width="700" height="500" src="images/trocaRegioesCode.png">
+								<h4>Imagem 4</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como podemos ver o que temos na imagem 4 é a entrada normal de uma imagem que foi especificada pelo código(bolhas.png) e após isso temos que identificamos o tamanho em linhas e colunas da imagem de entrada que foi armazenado em duas variáveis chamadas "rows"e "cols", que será útil para saber o local exato do meio da imagem em relação as linhas e colunas. </p><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Depois que se tem as linhas e colunas da imagem é só recortar a imagem em 4 regiões diferentes da imagem, com o construtor Rect(), passando os parâmetros de x, y, tamanho e altura, para que se tenha o recorte da imagem. </p><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Após o recorete em 4 imagens diferentes, temos que copiar essa imagem para a imagem original, por exemplo e com isso temos a saída da nossa imagem invertida como na imagem 6.</p><br>
+								<div style="text-align: center;">
+								    <a style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;" target="_blank">
+								        <img width="400" height="300" src="images/bolhas.png">
+                                   <h4>Imagem 5</h4>
+                                    </a>
+								
+                                        <img width="400" height="300" src="images/imagemComRegioesTrocadas.png">
+                                        <h4>Imagem 6</h4>
+								
+								</div><br>
+							</header>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- /Main -->
+
+	<!-- Tweet -->
+		<div id="tweet">
+			<div class="container">
+				<section>
+					<blockquote >&ldquo;Lucas 1:37 &rdquo;</blockquote>
+					<blockquote>&ldquo;37. Porquanto para Deus não existe nada que lhe seja impossível!” &rdquo;</blockquote>
+				</section>
+			</div>
+		</div>
+
+	<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<section>
+					<header>
+						<h2>Contatos</h2>
+						<span class="byline">Possiveis contatos para debatermos sobre assuntos pertinentes a pagina!</span>
+					</header>
+					<ul class="contact">
+						<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+						<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
+						<li><a href="#" class="fa fa-tumblr"><span>Google+</span></a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+
+
+	</body>
+</html>
