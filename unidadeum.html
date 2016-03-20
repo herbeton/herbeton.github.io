@@ -59,6 +59,7 @@
 								<span class="byline" align="center">3. Manipulando pixels em um imagem</span>
 								<h3>&nbsp; - Exercício 1</h3><br>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática visa solucitar ao usuário cordenadas de dois pontos, para que essa região seja transformada em imagem negativa. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<h5 style="text-align: center;"><a href="codigos/3.2Exercicios/Exercicio1/regions.cpp">Link para o código</a></h5>
 								<div style="text-align: center;"><img width="700" height="500" src="images/regions1code.png">
 								<h4>Imagem 1</h4>
 								</div><br>
@@ -77,6 +78,7 @@
 							<header>
 								<h3>&nbsp; - Exercício 2</h3><br>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática visa solucitar visa a troca de regiões de uma imagem. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<h5 style="text-align: center;"><a href="codigos/3.2Exercicios/Exercicio2/trocaregioes.cpp">Link para o código</a></h5>
 								<div style="text-align: center;"><img width="700" height="500" src="images/trocaRegioesCode.png">
 								<h4>Imagem 4</h4>
 								</div><br>
@@ -101,6 +103,7 @@
 								<span class="byline" align="center">4. Preenchendo regiões</span>
 								<h3>&nbsp; - Exercício 1</h3><br>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática tem como objetivo a solução do problema para uma quantidade de objetos maior que 255, que é a quantidade máxima de objetos que pode ser rotulado em região de cinza, pois existe 255 tons de cinza. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<h5 style="text-align: center;"><a href="codigos/4.2.Exercicios/Exercicio1/labelingExercicio1.cpp">Link para o código</a></h5>
 								<div style="text-align: center;"><img width="700" height="500" src="images/labelingExercicio1.png">
 								<h4>Imagem 7</h4>
 								</div><br>
@@ -125,6 +128,7 @@
 								<span class="byline" align="center">5. Manipulação de histogramas</span>
 								<h3>&nbsp; - Exercício 1</h3><br>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática tem como objetivo fazer equalização do histograma da imagem, que é capturada pela camera. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<h5 style="text-align: center;"><a href="codigos/5.2.Exercicios/Exercicio1/equalize.cpp">Link para o código</a></h5>
 								<div style="text-align: center;"><img width="700" height="100" src="images/codigoDeEqualizacao.png">
 								<h4>Imagem 10</h4>
 								</div><br>
@@ -144,24 +148,53 @@
 							<header>
 								<h3>&nbsp; - Exercício 2</h3><br>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática tem como objetivo fazer a detecção de movimento da imagem, que é capturada pela camera. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<h5 style="text-align: center;"><a href="codigos/5.2.Exercicios/Exercicio2/motiondetector.cpp">Link para o código</a></h5>
 								<div style="text-align: center;"><img width="700" height="200" src="images/codigoMotionDetection1.png">
 								<h4>Imagem 13</h4>
 								</div><br>
-								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática tem como objetivo fazer a detecção de movimento da imagem, que é capturada pela camera. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Na imagem 13 temos o código referente a atribuição de variávei de imagem, a chamada do método que vai comparar se houve modificação na imagem atual com a anterior que foi salva e modifica a cor dos pixels que foram modificados e a condicional que vai exibir a mensagem de "Pare!" ou não.  </p><br>
 								<div style="text-align: center;"><img width="700" height="500" src="images/codigoMotionDetection2.png">
 								<h4>Imagem 14</h4>
 								</div><br>
-								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como podemos ver o que temos na imagem 10 é apenas a equalização do histograma, onde foi utilizado o contrutor do OpenCV, que foi passado como parâmetro os panos de cada cor de histograma que seria equalizado e o plane que receberia o histograma resultante da equalização. </p><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Já na imagem 14 temos a função que faz a identificação se houve auteração dado que foi passado por parâmetro a imagem antiga e a imagem atual, é feito um condicional que verifica pixel a pixel se houve auteração ou do pixel que esta sendo analisado de cada imágem e caso tenha modificação é passado para que o algorítmo modifique a cor do pixel respectivo. Logo após os laços nós temos um condicional que verifica se tem que ser setada uma boleana para mostrar a mensagem de "Pare!" dependente da condição imposta. </p><br>
 								<div style="text-align: center;">
 								    <a style="clear: left; float: left; " target="_blank">
-								        <img width="400" height="300" src="images/semEqualizacao.png">
-                                   <h4>Imagem 11</h4>
+								        <img width="400" height="300" src="images/imagemNormalMotionDetection.png">
+                                   <h4>Imagem 15</h4>
                                     </a>
 								
-                                        <img width="400" height="300" src="images/comEqualizacao.png">
-                                        <h4>Imagem 12</h4>
+                                        <img width="400" height="300" src="images/imagemComDeteccaoMotionDetection.png">
+                                        <h4>Imagem 16</h4>
 								</div><br>
-                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como podemos ver na imagem 11, nós temos os histogramas normais da imagem e na imagem 12 nós temos os histogramas já equalizados, como pede a questão, só lembrando foi feita a equalização apenas dos histogramas, como foi pedido no exercício!</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como podemos ver na imagem 15 temos a imagem sem o movimento e na imagem 16 temos a detecção do movimento, onde foi pintado os pixeis diferentes de uma imagem para a outra de amarelo e tambem foi colocado a frase "Pare!" para identificar o movimento!</p>
+							</header>
+							
+							<header>
+								<span class="byline" align="center">6. Filtragem no domínio espacial I</span>
+								<h3>&nbsp; - Exercício 1</h3><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática tem como objetivo fazer uma filtragem, utilizando a mascara de Laplace e a de Gauss. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<h5 style="text-align: center;"><a href="codigos/6.2.Exercicios/Exercicio1/laplgauss.cpp">Link para o código</a></h5>
+								<div style="text-align: center;"><img width="700" height="100" src="images/codigoFiltroGaussELaplace.png">
+								<h4>Imagem 15</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como podemos ver o que temos na imagem 15 o código referente a aplicação das mascaras de Gauss e Laplce, onde foi aplicada a os filtros que já eram implementados na mesma imagem como podemos ver.  </p><br>
+								<br>
+								<div style="text-align: center;"><img width="700" height="500" src="images/imagemOriginal.png">
+								<h4>Imagem 16 - Imagem original</h4>
+								</div><br>
+								<br>
+								<div style="text-align: center;"><img width="700" height="500" src="images/mascaraDeGauss.png">
+								<h4>Imagem 17 - Macara de Gauss</h4>
+								</div><br>
+								<br>
+								<div style="text-align: center;"><img width="700" height="500" src="images/mascaraDeLaplace1.png">
+								<h4>Imagem 18 - Mascara de Laplace</h4>
+								</div><br>
+								<br>
+								<div style="text-align: center;"><img width="700" height="500" src="images/mascaraDeGaussELaplace.png">
+								<h4>Imagem 19 - Mascara de Gauss e Laplace</h4>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Como podemos ver o que temos na imagem 19 a aplicação dos dois filtros o de Laplace e o de Gauss. </p><br>
+								</div><br>
 							</header>
 						</section>
 					</div>
