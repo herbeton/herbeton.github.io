@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Linear by TEMPLATED</title>
+		<title>Primeira unidade de PDI</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -102,9 +102,9 @@
 							<header>
 								<span class="byline" align="center">4. Preenchendo regiões</span>
 								<h3>&nbsp; - Exercício 1</h3><br>
-								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática tem como objetivo a solução do problema para uma quantidade de objetos maior que 255, que é a quantidade máxima de objetos que pode ser rotulado em região de cinza, pois existe 255 tons de cinza. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática tem como objetivo a solução do problema para solucionar o problema de contagem de regiões com e sem buracos internos e não eliminar as bolhas que tocam a superfície da imagem.</p><br>
 								<h5 style="text-align: center;"><a href="codigos/4.2.Exercicios/Exercicio1/labelingExercicio1.cpp">Link para o código</a></h5>
-								<div style="text-align: center;"><img width="700" height="500" src="images/labelingExercicio1.png">
+								<div style="text-align: center;"><img width="700" height="500" src="images/bolhasComBuracos.png">
 								<h4>Imagem 7</h4>
 								</div><br>
 								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Na imagem 7, temos a solução do problema, pois a solução que foi encontrada está no if interno(if(nobjects == 255)), onde caso a contagem de objetos seja igual a 255, será seráda a variável nobjects, voltando a rotular de 0 e armazenando em uma outra variável. </p><br>
@@ -119,6 +119,37 @@
                                         <img width="400" height="300" src="images/labeling.png">
                                         <h4>Imagem 9</h4>
 								
+								</div><br>
+							</header>
+							
+							<header>
+								<h3>&nbsp; - Exercício 2</h3><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática tem como objetivo a solução do problema para uma quantidade de objetos maior que 255, que é a quantidade máxima de objetos que pode ser rotulado em região de cinza, pois existe 255 tons de cinza. Temos logo a seguir o código que foi adicionado no código original: </p><br>
+								<h5 style="text-align: center;"><a href="codigos/4.2.Exercicios/Exercicio2/labelingExercicio2.cpp">Link para o código</a></h5>
+								<div style="text-align: center;"><img width="700" height="400" src="images/CodigoLabeling1.png">
+								<h4>Imagem 20</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Na imagem 20, faz justamente o que podemos ver na imagem 24, ou seja elimina os elementos que esão nas bordas da nossa imagem, pois não sabemos se esses elementos tem buracos ou não. </p><br>
+								<div style="text-align: center;"><img width="700" height="400" src="images/CodigoLabeling2.png.png">
+								<h4>Imagem 21</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Na imagem 21, faz justamente o que podemos ver no exercício 1, ou seja conta os elementos da imagem. </p><br>
+								<div style="text-align: center;"><img width="700" height="400" src="images/CodigoLabeling3.png">
+								<h4>Imagem 22</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Na imagem 22, faz justamente o que podemos ver na imagem 25, ou seja busca os elementos que tem buracos na imagem e os rotula com uma cor diferente. </p><br>
+								
+								<div style="text-align: center;"><img width="500" height="300" src="images/bolhasComBuracos.png">
+								<h4>Imagem 23</h4>
+								</div><br>
+								<div style="text-align: center;"><img width="500" height="300" src="images/labelingExcluindoAsBordas.png">
+								<h4>Imagem 24</h4>
+								</div><br>
+								<div style="text-align: center;"><img width="500" height="300" src="images/labelingObjetosComESemBolhas.png">
+								<h4>Imagem 25</h4>
+								</div><br>
+								<div style="text-align: center;"><img width="700" height="200" src="images/saidaExercicio2PreenchendoRegioes.png">
+								<h4>Imagem 26 - Saida que mostra o número de objetos com e sem buracos</h4>
 								</div><br>
 							</header>
 						</section>
