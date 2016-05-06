@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<!--
+	Linear by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Primeira unidade de PDI</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+	<body>
+
+		<!-- Header -->
+		<div id="header">
+			<div id="nav-wrapper"> 
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="active"><a href="index.html">Início</a></li>
+						<li><a href="left-sidebar.html">Trabalhos</a></li>
+						<li><a href="right-sidebar.html">Outro link</a></li>
+						<li><a href="no-sidebar.html">Outro link</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">PDI</a></h1>
+					<span class="tag">Herbeton Bispo</span>
+				</div>
+			</div>
+		</div>
+		<!-- Header -->
+
+	<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div class="row">					
+					<!-- Content -->
+					<div id="content" class="auto skel-cell-important">
+						<section>
+							<header>
+								<h2 align="center">Trabalhos referentes a 2ª unidade de PDI </h2><br>
+								<h4><b>Obs: Trabalho elaborado por Herbeton Bispo e Felipe Fernandes!</b></h4>
+								<span class="byline" align="center">8. Filtragem no domínio da frequência</span>
+								<h3>&nbsp; - Exercício 8.2</h3><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Essa prática visa solucitar ao valores nos sliders da imagem 1, fazer com que seja setado valores diferentes para as variáveis do filtro Homomorfico.</p><br>
+								<div style="text-align: center;"><img width="400" height="200" src="images/Unidade2/imagemSlider.png">
+								<h4>Imagem 1</h4>
+								</div><br>
+								<div style="text-align: center;"><img width="400" height="200" src="images/Unidade2/FiltroHomo.png">
+								<h4>Imagem 2</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Temos logo a seguir o código que foi adicionado no código original para ser feito os sliders, que é mostrado na imagem 1: </p><br>
+								<h5 style="text-align: center;"><a href="codigos/Unidade2/dft.cpp">Link para o código</a></h5>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/imagemCodigoSlider.png">
+								<h4>Imagem 3</h4>
+								</div><br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/imagemFiltroHomomorfico.png">
+								<h4>Imagem 4</h4>
+								</div><br>
+								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A imagem 5 é a imagem com baixa oluminação e a immagem 6 é a representação do filtro, já na immagem 7, tem-se a saída do programa.</p>
+								<div style="text-align: center;"><img width="700" height="500" src="images/Unidade2/rua.jpg">
+								<h4>Imagem 5</h4>
+								</div><br>
+								<div style="text-align: center;"><img width="600" height="500" src="images/Unidade2/imagemFiltroHomomorfo.png">
+								<h4>Imagem 6</h4>
+								</div><br>
+								<div style="text-align: center;"><img width="500" height="700" src="images/Unidade2/imagemDeSaida.png">
+								<h4>Imagem 7</h4>
+								</div><br>
+							</header>
+						</section>
+						
+						<section>
+							<header>
+							<span class="byline" align="center">11. Descrição do programa pontilhismo.cpp</span>
+								<h3>&nbsp; - Exercício 11.1</h3><br>
+								<p>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No exercício sobre o algoritmo de canny e pontilhismo, pede-se para, utilizando os programas canny.cpp e pontilhismo.cpp,
+								desenvolver um programa que tinha como idéia: Usar as bordas produzidas pelo algoritmo de Canny para melhorar a qualidade da imagem pontilhista gerada. 
+								<br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A etapas para solucionar este problema foram as seguintes:<br>
+								- Rodar o algoritmo de Canny e guardar a imagem preta com as bordas brancas;<br>
+								- Depois rodava o algoritmo do pontilhismo, para gerar a imagem somente com pontos, e guardar esta imagem.<br>
+								- Em seguida percorrer a imagem de bordas e onde tiver borda(branco), pegar a cor do pixel correspondente na imagem original e gerar um ponto na imagem pontilhista com essa cor.
+								A solução do problema é mostrada a seguir:<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/1.png">
+								</div><br>
+								//1.png(iguala o width as outras fotos)
+								<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/2.png">
+								</div><br>
+								//2.png(iguala o width as outras fotos)
+								<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/3.png">
+								</div><br>
+								//3.png(iguala o width as outras fotos)
+								<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/4.png">
+								</div><br>
+								//4.png(iguala o width as outras fotos)
+								<br><br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Depois de realizar diversos testes modificando os limiares do canny e os raios dos pontos, obtivemos resultados bons e ruins, seguem mostrados abaixo os resultados com seus respectivos parametros:<br>
+								Imagem original:<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/biel.png">
+								</div><br>
+								//biel.png
+								<br><br>
+								Raios para formar a figura inicial: 5<br>
+								Limiar de canny: 15<br>
+								Raio para pontos nas bordas: 2<br>
+								(Melhores parametros encontrados)<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/5-15-2(melhor).jpg">
+								</div><br>
+								//5-15-2(melhor).jpg
+								<br><br>
+								Raios para formar a figura inicial: 5<br>
+								Limiar de canny: 35<br>
+								Raio para pontos nas bordas: 2<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/5-35-2.jpg">
+								</div><br>
+								//5-35-2.jpg
+								<br><br>
+								Raios para formar a figura inicial: 8<br>
+								Limiar de canny: 25<br>
+								Raio para pontos nas bordas: 1<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/8-25-1.jpg">
+								</div><br>
+								//8-25-1.jpg
+								<br><br>
+								Raios para formar a figura inicial: 15<br>
+								Limiar de canny: 85<br>
+								Raio para pontos nas bordas: 5<br>
+								(Com os valores muito altos o resultado fica ruim)<br>
+								<div style="text-align: center;"><img width="600" height="400" src="images/Unidade2/15-85-5.jpg">
+								</div><br>
+								//15-85-5.jpg
+								<br><br>
+							</header>
+						</section>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- /Main -->
+
+	<!-- Tweet -->
+		<div id="tweet">
+			<div class="container">
+				<section>
+					<blockquote >&ldquo;Lucas 1:37 &rdquo;</blockquote>
+					<blockquote>&ldquo;37. Porquanto para Deus não existe nada que lhe seja impossível!” &rdquo;</blockquote>
+				</section>
+			</div>
+		</div>
+
+	<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<section>
+					<header>
+						<h2>Contatos</h2>
+						<span class="byline">Possiveis contatos para debatermos sobre assuntos pertinentes a pagina!</span>
+					</header>
+					<ul class="contact">
+						<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+						<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
+						<li><a href="#" class="fa fa-tumblr"><span>Google+</span></a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+			</div>
+		</div>
+
+
+	</body>
+</html>
